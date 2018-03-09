@@ -1,0 +1,10 @@
+{
+  "title": "$unset",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "// 用于删除字段\n{\n\ta: 1,\n\tb: 2,\n}\ncollection.update({}, {\n\t$unset: {\n\t\ta: 1,\n\t},\n});\n{\n\tb: 2,\n}"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "findAndModify",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "findAndModify({\n  query: {\n\t\tname: \"Andy\"  // 查询条件\n  },\n  update: {\n \t  $inc: {\n \t  \tscore: 1, // 更新\n   \t},\n\t},\n\tfields: {\n\t\t_id: 1, // 选择返回字段\n\t}\n  sort: {\n \t  rating: 1 // 排序\n  }, \n  upsert: true, // 默认false 如果查询条件不存在则创建文档，默认是query+update组合一起的文档\n  remove: true, // 默认false 它跟update必须且同时只能有一个存在，要么更新要么删除\n  new: true, // 默认false 为true则会返回修改后文档，否则返回修改前的文档\n});\n// 该查询方法只会更新或删除查询到的第一个文档\n// 该方法是原子操作"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "moment",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "// years\ty\n// quarters\tQ\n// months\tM\n// weeks\tw\n// days\td\n// hours\th\n// minutes\tm\n// seconds\ts\n// milliseconds\tms\n\n// 增加时间和减去时间\nmoment().add(7, 'days');\nmoment().subtract(7, 'days');\n\n// 比较2个时间按照不同单位\n// 第二个单位代表是否舍弃小数点,默认是false\na.diff(b) // 86400000 默认返回毫秒\na.diff(b, 'y', true); // 1.5 true则保留小数点\na.diff(b, 'y', false); // 1 false舍弃小数点\n\n// 比较2个时间返回字符串\nmoment([2007, 0, 29]).fromNow();\nmoment([2007, 0, 29]).from(moment([2011,1,1]));\nmoment([2007, 0, 29]).toNow();\nmoment([2007, 0, 29]).to(moment([2011,1,1]));"
+    },
+    {
+      "type": "markdown",
+      "data": ""
+    }
+  ]
+}

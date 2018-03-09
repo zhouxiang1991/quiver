@@ -1,0 +1,14 @@
+{
+  "title": "update",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "update({\n\tname: 'abc', // 查询条件\n}, {\n\t$set: {\n\t\tage: 20, // 更新字段\n\t},\n}, {\n\tmulti: true,\n\t// 默认false\n\t// 为true则更新匹配到的所有文档\n\tupsert: true,\n\t// 默认false\n\t// 为true如果没有查询到文档\n\t// 则根据查询文档和更新文档创建一个文档,该文档的_id默认是objectId\n});\n\n\nreturn {\n\tok: 1, // 操作成功的文档数量\n\tn: 1, // 查询到的文档数量\n\tnMoidfied: 1, //修改文档的数量\n}"
+    },
+    {
+      "type": "markdown",
+      "data": ""
+    }
+  ]
+}

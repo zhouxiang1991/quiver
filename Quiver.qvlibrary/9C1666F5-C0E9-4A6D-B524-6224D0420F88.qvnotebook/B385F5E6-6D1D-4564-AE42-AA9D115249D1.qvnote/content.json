@@ -1,0 +1,10 @@
+{
+  "title": "$pull",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "// 删除数据指定元素\n{\n\tarr: [1, 2, 3],\n}\n{\n\t$pull: {\n\t\tarr: 1\n\t},\n}\n{\n\tarr: [2, 3],\n}"
+    }
+  ]
+}

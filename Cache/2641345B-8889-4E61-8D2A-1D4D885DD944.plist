@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>notes</key>
+	<array>
+		<dict>
+			<key>created_at</key>
+			<integer>1498128006</integer>
+			<key>mtime</key>
+			<integer>1520347836</integer>
+			<key>tags</key>
+			<array>
+				<string>moment</string>
+			</array>
+			<key>title</key>
+			<string>moment</string>
+			<key>updated_at</key>
+			<integer>1520347836</integer>
+			<key>uuid</key>
+			<string>00244EF7-A715-4BBC-85E7-BCCCF1138840</string>
+		</dict>
+		<dict>
+			<key>created_at</key>
+			<integer>1498212432</integer>
+			<key>mtime</key>
+			<integer>1520348025</integer>
+			<key>tags</key>
+			<array>
+				<string>regex</string>
+			</array>
+			<key>title</key>
+			<string>regex</string>
+			<key>updated_at</key>
+			<integer>1520348025</integer>
+			<key>uuid</key>
+			<string>383833A4-424E-47AF-AE2F-89BE17D4862E</string>
+		</dict>
+	</array>
+</dict>
+</plist>

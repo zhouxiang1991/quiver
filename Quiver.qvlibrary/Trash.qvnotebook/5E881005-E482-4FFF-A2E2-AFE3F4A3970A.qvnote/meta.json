@@ -1,0 +1,9 @@
+{
+  "created_at" : 1498540776,
+  "tags" : [
+    "regex"
+  ],
+  "title" : "验证YYYY[-\/._]MM[-\/._]DD格式日期",
+  "updated_at" : 1520347879,
+  "uuid" : "5E881005-E482-4FFF-A2E2-AFE3F4A3970A"
+}

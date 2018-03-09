@@ -1,0 +1,10 @@
+{
+  "title": "$eleMatch",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "collection.update({\n\tarr: { // arr是一个数组\n\t\t$elemMatch: {\n\t\t\tclass: 'A班',\n\t\t\tage: 16,\n\t\t },\n\t},\n},{\n\t$set:{\n\t\t'arr.$.age': newValue, // $代表字段b所在的元素, 修改字段b为新值\n\t},\n});\n// 该操作符是用来查询多个字段的内嵌数组文档\n// 查询单字段可以使用字段a.字段b来查询"
+    }
+  ]
+}

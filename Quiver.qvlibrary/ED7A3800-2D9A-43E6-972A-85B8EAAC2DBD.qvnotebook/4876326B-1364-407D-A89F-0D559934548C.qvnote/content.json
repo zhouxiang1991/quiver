@@ -1,0 +1,10 @@
+{
+  "title": "Class.protoype.constructor",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "// constructor是一个类构造函数，也就是自身的引用\nvar o = {};\no.constructor === Object; // true\n\nvar o = new Object;\no.constructor === Object; // true\n\nvar a = [];\na.constructor === Array; // true\n\nvar a = new Array;\na.constructor === Array // true\n\nvar n = new Number(3);\nn.constructor === Number; // true"
+    }
+  ]
+}

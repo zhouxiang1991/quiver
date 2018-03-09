@@ -1,0 +1,9 @@
+{
+  "title": "javascript历史",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "# 产生原因\n　　JavaScript诞生于1995年。起初它的主要目的是处理以前由服务器端负责的一些表单验证。在那个绝大多数用户都在使用调制解调器上网的时代，用户填写完一个表单点击提交，需要等待几十秒，完了服务器反馈给你说某个地方填错了......在当时如果能在客户端完成一些基本的验证绝对是令人兴奋的。当时走在技术革新最前沿的Netscape（网景）公司，决定着手开发一种客户端语言，用来处理这种装简单的验证。当时就职于Netscape公司的布兰登·艾奇开始着手计划将1995年2月发布的LiveScript同时在浏览器和服务器中使用。为了赶在发布日期前完成LiveScript的开发，Netscape与Sun公司成立了一个开发联盟。而此时，Netscape为了搭上媒体热炒Java的顺风车，临时把LiveScript改名为JavaScript，所以从本质上来说JavaScript和Java没什么关系。\n\n　　JavaScript 1.0获得了巨大的成功，Netscape随后在Netscape Navigator 3（网景浏览器）中发布了JavaScript 1.1。之后作为竞争对手的微软在自家的IE3中加入了名为JScript（名称不同是为了避免侵权）的JavaScript实现。而此时市面上意味着有3个不同的JavaScript版本，IE的JScript、网景的JavaScript和ScriptEase中的CEnvi。当时还没有标准规定JavaScript的语法和特性。随着版本不同暴露的问题日益加剧，JavaScript的规范化最终被提上日程。\n　　\n# 历史\n1995: JavaScript出生，小名叫LiveScript。\n1997: ECMAScript标准确立。\n1999: ES3出现，与此同时IE5风靡一时。\n2000–2005: XMLHttpRequest也就是AJAX大获流行，给了JS第2次生命。\n2009: ES5出现，（就是我们大多数人现在使用的）例如forEach, Object.keys, Object.create 以及JSON标准。\n2015: ES6/ECMAScript2015出现。主要是一些语法糖（好的语法改进），但缺少功能突破。\n# 特点\n1. 基于原型\n2. 动态\n3. 弱类型\n4. 单线程\n5. 事件驱动\n6. 解释性脚本语言\n7. 跨平台\n8. 面向对象\n9. 面向过程\n10. 安全性"
+    }
+  ]
+}

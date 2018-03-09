@@ -1,0 +1,19 @@
+{
+  "title": "ls",
+  "cells": [
+    {
+      "type": "code",
+      "language": "sh",
+      "data": "# ls 按照文件大小排序\n# 从大到小\nls -Slh\n# 从小到大\nls -Slrh"
+    },
+    {
+      "type": "markdown",
+      "data": "---"
+    },
+    {
+      "type": "code",
+      "language": "sh",
+      "data": "# 统计文件夹下所有目录文件个数\nls -lR|grep \"^-\"|wc -l"
+    }
+  ]
+}

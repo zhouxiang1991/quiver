@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>notes</key>
+	<array>
+		<dict>
+			<key>created_at</key>
+			<integer>1498295061</integer>
+			<key>mtime</key>
+			<integer>1520255621</integer>
+			<key>tags</key>
+			<array>
+				<string>vim</string>
+			</array>
+			<key>title</key>
+			<string>启动时不加载.vimrc</string>
+			<key>updated_at</key>
+			<integer>1498295086</integer>
+			<key>uuid</key>
+			<string>41517AEF-5E8A-471D-B50F-6A09EACD455C</string>
+		</dict>
+		<dict>
+			<key>created_at</key>
+			<integer>1498100524</integer>
+			<key>mtime</key>
+			<integer>1520255631</integer>
+			<key>tags</key>
+			<array>
+				<string>vim</string>
+			</array>
+			<key>title</key>
+			<string>全局替换</string>
+			<key>updated_at</key>
+			<integer>1520255631</integer>
+			<key>uuid</key>
+			<string>FE825FE3-A97C-490F-802D-C04A7399B17F</string>
+		</dict>
+	</array>
+</dict>
+</plist>

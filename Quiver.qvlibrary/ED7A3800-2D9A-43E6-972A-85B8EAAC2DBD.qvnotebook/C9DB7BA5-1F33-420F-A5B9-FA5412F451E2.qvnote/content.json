@@ -1,0 +1,10 @@
+{
+  "title": "export",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "export { name1, name2, …, nameN };\nexport { variable1 as name1, variable2 as name2, …, nameN };\nexport let name1, name2, …, nameN; // also var\nexport let name1 = …, name2 = …, …, nameN; // also var, const\n\nexport default expression;\nexport default function (…) { … } // also class, function*\nexport default function name1(…) { … } // also class, function*\nexport { name1 as default, … };\n\nexport * from …;\nexport { name1, name2, …, nameN } from …;\nexport { import1 as name1, import2 as name2, …, nameN } from …;"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "统计文件夹下所有目录文件个数",
+  "cells": [
+    {
+      "type": "code",
+      "language": "sh",
+      "data": "ls -lR|grep \"^-\"|wc -l"
+    }
+  ]
+}

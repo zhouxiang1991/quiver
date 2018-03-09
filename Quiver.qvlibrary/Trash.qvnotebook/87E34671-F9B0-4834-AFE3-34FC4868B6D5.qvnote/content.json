@@ -1,0 +1,10 @@
+{
+  "title": "查看两个时间相隔多久返回数字",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "var a = moment([2007, 0, 29]);\nvar b = moment([2007, 0, 28]);\na.diff(b) // 86400000 默认返回毫秒\nvar a = moment([2008, 6]);\nvar b = moment([2007, 0]);\na.diff(b, 'years'); // 带单位\na.diff(b, 'years', true); // 1.5 参数带true则不会舍弃小数点"
+    }
+  ]
+}

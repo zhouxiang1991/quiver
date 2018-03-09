@@ -1,0 +1,10 @@
+{
+  "title": "$substr",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "{\n\tname: 'zhou',\n}\n\n{\n\t$substr: [\n\t\t'$name',\n\t\t0,\n\t\t2\n\t]\n}\n\n{\n\tname: 'zho',\n}"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "$size",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "{\n\tarr: {\n\t\t$size: 1, // 查询arr字段数组元素个数为1的文档\n\t}\n}"
+    }
+  ]
+}

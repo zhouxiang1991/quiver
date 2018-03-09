@@ -1,0 +1,10 @@
+{
+  "title": "distinct",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "distinct('字段名');\n// 获取该字段的唯一值数组"
+    }
+  ]
+}

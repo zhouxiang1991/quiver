@@ -1,0 +1,10 @@
+{
+  "title": "chown",
+  "cells": [
+    {
+      "type": "code",
+      "language": "sh",
+      "data": "chown -R user:user file|directory"
+    }
+  ]
+}

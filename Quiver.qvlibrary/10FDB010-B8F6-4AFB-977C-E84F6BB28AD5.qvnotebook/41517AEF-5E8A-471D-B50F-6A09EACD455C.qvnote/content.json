@@ -1,0 +1,10 @@
+{
+  "title": "启动时不加载.vimrc",
+  "cells": [
+    {
+      "type": "code",
+      "language": "viml",
+      "data": "vim -u NONE -N"
+    }
+  ]
+}

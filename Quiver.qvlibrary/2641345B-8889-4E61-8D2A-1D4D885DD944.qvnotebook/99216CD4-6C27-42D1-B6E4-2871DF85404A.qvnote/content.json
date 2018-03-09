@@ -1,0 +1,19 @@
+{
+  "title": "pm2-logrotate",
+  "cells": [
+    {
+      "type": "markdown",
+      "data": "[pm2-logrotate](<https://www.npmjs.com/package/pm2-logrotate>)"
+    },
+    {
+      "type": "code",
+      "language": "sh",
+      "data": "# 设置每个日志最大体积\npm2 set pm2-logrotate:max_size 1K\n\n# 设置是否压缩日志文件\npm2 set pm2-logrotate:compress true\n\n# 设置执行频率\npm2 set pm2-logrotate:rotateInterval '*/1 * * * *'\n\n# 设置日志文件个数\n# all(默认) 不限制\npm2 set pm2-logrotate:retain all\n\n# 设置日志文件名中的日期格式\npm2 set pm2-logrotate:dateFormat YYYY-MM-DD_HH-mm-ss"
+    },
+    {
+      "type": "code",
+      "language": "sh",
+      "data": "*    *    *    *    *    *\n┬    ┬    ┬    ┬    ┬    ┬\n│    │    │    │    │    |\n│    │    │    │    │    └ day of week (0 - 7) (0 or 7 is Sun)\n│    │    │    │    └───── month (1 - 12)\n│    │    │    └────────── day of month (1 - 31)\n│    │    └─────────────── hour (0 - 23)\n│    └──────────────────── minute (0 - 59)\n└───────────────────────── second (0 - 59, OPTIONAL)"
+    }
+  ]
+}

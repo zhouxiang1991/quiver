@@ -1,0 +1,26 @@
+{
+  "title": "全局替换",
+  "cells": [
+    {
+      "type": "code",
+      "language": "viml",
+      "data": "\" 替换每一行中所有a为b\n:%s/a/b/g "
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    },
+    {
+      "type": "text",
+      "data": ""
+    }
+  ]
+}

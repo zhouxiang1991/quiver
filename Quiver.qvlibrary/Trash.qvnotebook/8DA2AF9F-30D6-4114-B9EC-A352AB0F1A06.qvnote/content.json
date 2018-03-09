@@ -1,0 +1,10 @@
+{
+  "title": "排除字符串中的单词",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "(?:(?!单词).)*"
+    }
+  ]
+}

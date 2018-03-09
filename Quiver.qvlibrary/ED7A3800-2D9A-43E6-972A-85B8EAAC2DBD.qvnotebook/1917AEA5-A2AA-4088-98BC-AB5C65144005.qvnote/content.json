@@ -1,0 +1,10 @@
+{
+  "title": "isNaN",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "// 用于判断参数是不是NaN\n// true\nisNaN(NaN); \nisNaN(undefined);\nisNaN({});      \nisNaN(\"blabla\");\nisNaN(0/0);\n\n// false\nisNaN(37);  \nisNaN(true);\nisNaN(false);\nisNaN(null); \nisNaN(\"37\");\nisNaN(\"37.37\");\nisNaN([]); \nisNaN(\"\");\nisNaN(\" \");\nisNaN(1/0);\nisNaN(Infinity)\n"
+    }
+  ]
+}

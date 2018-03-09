@@ -1,0 +1,10 @@
+{
+  "title": "typeof",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "// Numbers\ntypeof 37 === 'number';\ntypeof 3.14 === 'number';\ntypeof Math.LN2 === 'number';\ntypeof Infinity === 'number';\ntypeof NaN === 'number'; // 尽管NaN是\"Not-A-Number\"的缩写\ntypeof Number(1) === 'number'; // 但不要使用这种形式!\n\n// Strings\ntypeof \"\" === 'string';\ntypeof \"bla\" === 'string';\ntypeof (typeof 1) === 'string'; // typeof总是返回一个字符串\ntypeof String(\"abc\") === 'string'; // 但不要使用这种形式!\n\n// Booleans\ntypeof true === 'boolean';\ntypeof false === 'boolean';\ntypeof Boolean(true) === 'boolean'; // 但不要使用这种形式!\n\n// Symbols\ntypeof Symbol() === 'symbol';\ntypeof Symbol('foo') === 'symbol';\ntypeof Symbol.iterator === 'symbol';\n\n// Undefined\ntypeof undefined === 'undefined';\ntypeof declaredButUndefinedVariable === 'undefined';\ntypeof undeclaredVariable === 'undefined'; \n\n// Objects\ntypeof {a:1} === 'object';\n\n// 使用Array.isArray 或者 Object.prototype.toString.call\n// 区分数组,普通对象\ntypeof [1, 2, 4] === 'object';\n\ntypeof new Date() === 'object';\n\n// 下面的容易令人迷惑，不要使用！\ntypeof new Boolean(true) === 'object';\ntypeof new Number(1) === 'object';\ntypeof new String(\"abc\") === 'object';\n\n// 函数\ntypeof function(){} === 'function';\ntypeof class C{} === 'function'\ntypeof Math.sin === 'function';\ntypeof new Function() === 'function';"
+    }
+  ]
+}

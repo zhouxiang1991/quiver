@@ -1,0 +1,25 @@
+{
+  "title": "判断变量类型的几种方法",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "typeof"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "instanceof "
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "Object.protoype.toString.call();"
+    },
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "constructor"
+    }
+  ]
+}

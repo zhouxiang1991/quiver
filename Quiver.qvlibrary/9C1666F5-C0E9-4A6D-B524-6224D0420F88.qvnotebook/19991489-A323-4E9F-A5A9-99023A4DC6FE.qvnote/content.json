@@ -1,0 +1,10 @@
+{
+  "title": "$",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "{\n\tarr: [1, 2, 3]\n}\n\n// 第一种用途用于：代替在查询条件中查询到的数组中的元素，以便更新\ncollection.update({\n\t'arr.0': 1,\n}, {\n\t'arr.$': 2,\n});\n{\n\tarr: [2, 2, 3]\n}\n\n// 第二种用途用于：代替在查询条件中查询到的数组中的元素，以便仅返回查询到的元素\ncollection.find({\n\t'arr.0': 1,\n}, {\n\t'arr.$': 1,\n})\n{\n\tarr: [1]\n}"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "js类型转换",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "// 显式转换\nparseInt()\nparseFloat()\nBoolean()\nString()\nNumber()\n\n// 隐式转换\n220 + '' -> String\n+'123' -> Number\n!!23 -> Boolean\n"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "$and",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "$and: [\n\t{\n\t\t//条件1\n\t},\n\t{\n\t\t//条件2\n\t},\n]\n//条件1和条件2是&&关系"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "title": "$lookup",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "{\n   $lookup:\n     {\n       from: 'a', // 集合名称\n       localField: 'field1', // 当前集合字段名 \n       foreignField: 'field2', // 查询集合字段名\n       as: 'fields3' // 查询后的字段名\n     }\n}"
+    }
+  ]
+}

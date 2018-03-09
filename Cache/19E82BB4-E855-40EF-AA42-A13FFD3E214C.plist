@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>notes</key>
+	<array>
+		<dict>
+			<key>created_at</key>
+			<integer>1518001000</integer>
+			<key>mtime</key>
+			<integer>1520231939</integer>
+			<key>tags</key>
+			<array/>
+			<key>title</key>
+			<string>直接计算准确率</string>
+			<key>updated_at</key>
+			<integer>1520231939</integer>
+			<key>uuid</key>
+			<string>E10BA08A-293E-4BA6-B810-33C9C72810C6</string>
+		</dict>
+		<dict>
+			<key>created_at</key>
+			<integer>1520231858</integer>
+			<key>mtime</key>
+			<integer>1520231913</integer>
+			<key>tags</key>
+			<array/>
+			<key>title</key>
+			<string>查近三个月精准度增长最快的分析师</string>
+			<key>updated_at</key>
+			<integer>1520231913</integer>
+			<key>uuid</key>
+			<string>9D31495F-7F7E-49A7-8B24-EF88B9CED7A5</string>
+		</dict>
+	</array>
+</dict>
+</plist>

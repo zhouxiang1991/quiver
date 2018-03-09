@@ -1,0 +1,10 @@
+{
+  "title": "pm2启动脚本",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "module.exports = {\n  apps: [{\n    name: 'test', // pm2进程名\n    script: './test.js', // 启动脚本\n    autorestart: true, // 是否自动重启\n    'error_file'      : \"./logs/err.log\", // 自定义错误日志路径\n    'out_file'        : \"./logs/out.log\", // 自定义正常日志路径\n    'log_date_format' : \"YYYY-MM-DD HH:mm Z\", // 每一行日志前的日志格式\n    env: {\n    },\n  }],\n};\n"
+    }
+  ]
+}

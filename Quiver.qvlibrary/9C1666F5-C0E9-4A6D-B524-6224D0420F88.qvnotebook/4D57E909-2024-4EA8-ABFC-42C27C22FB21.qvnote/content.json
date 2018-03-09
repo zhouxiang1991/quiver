@@ -1,0 +1,10 @@
+{
+  "title": "findOne",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "findOne({\n\t\tname: 'zx' // 查询条件\n}, {\n\tname: 1, // 返回的字段 \n\tsex: 1,\n}, {\n\tsort: {\n\t\tage: -1 // 1正序 -1反序\n\t},\n\tlimit:  10, // 限制返回的文档数是10个\n\tskip: 10, // 跳过10个查询的文档\n});\n// 返回查询到的文档，没有查询到则返回null"
+    }
+  ]
+}

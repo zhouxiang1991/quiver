@@ -1,0 +1,10 @@
+{
+  "title": "instanceof",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "// 定义构造函数\nfunction C(){} \nfunction D(){} \n\nvar o = new C();\n\n\no instanceof C; // true，因为 Object.getPrototypeOf(o) === C.prototype\n\n\no instanceof D; // false，因为 D.prototype不在o的原型链上\n\no instanceof Object; // true,因为Object.prototype.isPrototypeOf(o)返回true\nC.prototype instanceof Object // true,同上\n\nC.prototype = {};\nvar o2 = new C();\n\no2 instanceof C; // true\n\no instanceof C; // false,C.prototype指向了一个空对象,这个空对象不在o的原型链上.\n\nD.prototype = new C(); // 继承\nvar o3 = new D();\no3 instanceof D; // true\no3 instanceof C; // true"
+    }
+  ]
+}

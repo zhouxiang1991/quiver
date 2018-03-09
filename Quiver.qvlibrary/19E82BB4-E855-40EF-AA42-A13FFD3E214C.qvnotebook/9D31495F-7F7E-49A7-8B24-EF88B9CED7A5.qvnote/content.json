@@ -1,0 +1,10 @@
+{
+  "title": "查近三个月精准度增长最快的分析师",
+  "cells": [
+    {
+      "type": "code",
+      "language": "viml",
+      "data": "db.getCollection('test_statistics').aggregate([\n  {\n    $project: {\n      arr: {\n        $slice: [\n          '$accuracys',\n          -3\n        ],\n        \n      }\n    }\n  },\n  {\n    $project: {\n      arr: 1,\n      size: {\n        '$size': '$arr'\n      },\n      \n    }\n  },\n  {\n    $match: {\n      size: {\n        $gte: 1,\n        \n      }\n    }\n  },\n  {\n    $project: {\n      arr: 1,\n      first: {\n        $arrayElemAt: [\n          {\n            $arrayElemAt: [\n              '$arr',\n              0\n            ]\n          },\n          1\n        ]\n      },\n      last: {\n        $arrayElemAt: [\n          {\n            $arrayElemAt: [\n              '$arr',\n              {\n                $subtract: [\n                  \"$size\",\n                  1\n                ]\n              }\n            ]\n          },\n          1\n        ]\n      },\n      \n    }\n  },\n  {\n    $project: {\n      res: {\n        $subtract: [\n          '$last',\n          '$first'\n        ]\n      }\n    }\n  },\n  {\n    $sort: {\n      res: -1,\n      \n    }\n  }\n])"
+    }
+  ]
+}

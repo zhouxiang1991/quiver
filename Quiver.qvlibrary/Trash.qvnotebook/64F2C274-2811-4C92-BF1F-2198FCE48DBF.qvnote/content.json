@@ -1,0 +1,10 @@
+{
+  "title": "按日期统计数据",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "    const res = Seerline.models.Predication.aggregate([\n      {\n        $project: {\n          day: {\n            $substr: ['$start', 0, 7], // start是时间字段, 后面是截取到月份0,10精确到天\n          },\n        },\n      },\n      {\n        $group: {\n          _id: '$day',\n          number: {\n            $sum: 1, // 求和\n          },\n        },\n      },\n      {\n        $sort: {\n          _id: -1, // 按照日期排序\n        },\n      },\n    ]);"
+    }
+  ]
+}

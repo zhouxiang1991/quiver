@@ -1,0 +1,10 @@
+{
+  "title": "Object.protoype.toString.call()",
+  "cells": [
+    {
+      "type": "code",
+      "language": "javascript",
+      "data": "var toString = Object.prototype.toString;\n\ntoString.call(new Date); // [object Date]\ntoString.call(new String); // [object String]\ntoString.call(Math); // [object Math]\n\n//Since JavaScript 1.8.5\ntoString.call(undefined); // [object Undefined]\ntoString.call(null); // [object Null]"
+    }
+  ]
+}
